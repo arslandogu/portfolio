@@ -2,7 +2,7 @@ import navLinks from "@/data/navLinks";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import classes from './nav-link.module.css';
+import classes from './NavLink.module.css';
 interface NavbarProps {
   openNavbar: () => void;
 }
@@ -27,9 +27,7 @@ const styles = {
 
 const Navbar = ({ openNavbar }: NavbarProps) => {
   const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [navMobile, setNavMobile] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {

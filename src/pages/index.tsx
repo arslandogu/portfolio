@@ -1,12 +1,11 @@
 import Navbar from "@/components/Navbar";
 import NavbarMobile from "@/components/NavbarMobile";
-import Hero from "@/pages/Hero";
+import Hero from "./Hero";
 import React, { useState } from "react";
-import About from "@/pages/About";
-import Projects from "@/pages/Projects";
+import About from "./About";
+import Projects from "./Projects";
 import { bckround } from "@/components";
-import { FloatingNav } from "@/components/FloatingNav";
-import SkillBar from "@/components/SkillsBar";
+import Footer from "./Footer";
 
 
 const HomePage = () => {
@@ -28,6 +27,9 @@ const HomePage = () => {
         </div>
         <div className="z-[30] relative" id="projects">
           <Projects imga={bckround} />
+        </div>
+        <div className="z-[30] relative">
+          <Footer/>
         </div>
       </div>
       {/*About Section*/}
