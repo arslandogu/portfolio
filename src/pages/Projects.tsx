@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import ProjectItems from "./ProjectItems";
+import ProjectItems from "../components/ProjectItems";
 
 interface ImageProps {
   imga: StaticImageData;

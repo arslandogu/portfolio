@@ -1,7 +1,7 @@
 import React from "react";
-import { languages } from "./data";
-import SkillBar from "./SkillsBar";
-import TimeLineItems from "./TimeLineItems";
+import { languages } from "../data/data";
+import SkillBar from "../components/SkillsBar";
+import TimeLineItems from "../components/TimeLineItems";
 
 const About = ()=> {
   return (
