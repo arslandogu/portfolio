@@ -1,4 +1,4 @@
-import navLinks from "@/data/navLinks";
+import NavLinks from "../data/NavLinks";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
@@ -68,7 +68,7 @@ const Navbar = ({ openNavbar }: NavbarProps) => {
       </div>
       <div className="items-center flex flex-row justify-between">
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((nav) => (
+          {NavLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${active === nav.title ? `${classes.active}` :` `

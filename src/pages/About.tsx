@@ -6,14 +6,14 @@ import TimeLineItems from "../components/TimeLineItems";
 const About = ()=> {
   return (
     <div id="about">
-      <div className="grid mobile:grid-rows-2 mobile:-mt-[10%] items-center md:grid-cols-1 place-content-center place-items-center justify-center text-center mb-[40px]">
+      <div className="grid w-[80%] mx-auto mobile:grid-rows-2 mobile:-mt-[10%] items-center md:grid-cols-1 place-content-center place-items-center justify-center text-center mb-[40px]">
         <h1 className="text-[40px] my-1.5 font-bold uppercase text-white">
           Education & Skills
         </h1>
         <span className="w-[20%] lg:w-[10%] my-[0.5px] mb-[10px] bg-red-600  md:block h-[3px] rounded-sm"/>
       </div>
-      <div className="w-[85%] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between mx-auto grid gap-[5rem]">
-        <div className="backdrop:filter sm:grid-cols-1 grid shadow-2xl shadow-black p-[100px] backdrop-blur-2xl py-[10px] px-[25px] rounded-3xl">
+      <div className="w-[90%] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center justify-between mx-auto grid gap-[5rem]">
+        <div className="backdrop:filter sm:grid-cols-1 grid shadow-2xl shadow-black p-[100px] backdrop-blur-md py-[10px] px-[25px] rounded-3xl">
           <div
             id="timeline-items"
           >
@@ -35,7 +35,7 @@ const About = ()=> {
             </p>
           </div> */}
         </div>
-        <div className="backdrop:filter shadow-2xl shadow-black backdrop-blur-2xl rounded-3xl py-[10px] px-[25px]">
+        <div className="backdrop:filter shadow-2xl shadow-black backdrop-blur-md rounded-3xl py-[10px] px-[25px]">
           <h1 className="my-1.5 font-bold text-[25px] text-white uppercase">
             Languages & Frameworks
           </h1>

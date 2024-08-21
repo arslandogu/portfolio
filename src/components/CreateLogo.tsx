@@ -11,7 +11,7 @@ function Logo({ props, className }: Props) {
     <div
       className={
         className
-          ? `${className} w-[160px] mobile:w-[120px] mobile:h-[120px] lg:flex backdrop:filter backdrop-blur-[1px] h-[160px]`
+          ? `${className} w-[160px] mobile:w-[140px] mobile:h-[140px] lg:flex backdrop:filter backdrop-blur-[1px] h-[160px]`
           : "w-[160px] lg:flex backdrop:filter backdrop-blur-[1px] h-[160px]"
       }
     >

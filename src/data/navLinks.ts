@@ -1,4 +1,4 @@
-const navLinks = [
+const NavLinks = [
     {
       id: "home",
       title: "Home",
@@ -13,4 +13,4 @@ const navLinks = [
     },
 ];
 
-export default navLinks;
+export default NavLinks;

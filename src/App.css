@@ -72,11 +72,11 @@ html,
 
 
 #timeline-items{
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    min-height:fit-content;
+    max-height: fit-content;
     min-width: fit-content;
     position:relative;
 }
@@ -108,7 +108,6 @@ html,
 
 #timeline-item:nth-child(even) {
     padding-left: calc(50% + 30px);
-
 }
 #timeline-dot{
     height: 21px;
@@ -138,16 +137,17 @@ html,
     box-shadow: 0 0 25px white;
 }
 #timeline-content h3{
-    font-size: 20px;
+    font-size: 21px;
     color: white;
     margin: 0 0 2px;
-    font-weight: 500;
+    font-weight:normal;
+
 }
 #timeline-content p{
-    color: white;
+    color: rgba(255, 255, 255, 0.61);
     font-size: 16px;
     font-weight: 300;
-    line-height: 20px;
+    line-height:normal;
     min-height:min-content;
 }
 ::-webkit-scrollbar{

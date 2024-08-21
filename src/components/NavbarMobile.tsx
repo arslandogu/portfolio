@@ -1,4 +1,4 @@
-import navLinks from "@/data/navLinks";
+import NavLinks from "../data/NavLinks";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import React, { useState } from "react";
 
@@ -26,7 +26,7 @@ function NavbarMobile({ navbar, closeNavbar }: NavbarProps) {
         <XMarkIcon className="top-[2rem] left-[2rem] w-[2rem] h-[2rem] text-white cursor-pointer" />
       </div>
       <div className="flex text-white flex-col items-center">
-        {navLinks.map((nav) => (
+        {NavLinks.map((nav) => (
           <div
             key={nav.id}
             className={`${

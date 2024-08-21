@@ -4,7 +4,6 @@ import Hero from "./Hero";
 import React, { useState } from "react";
 import About from "./About";
 import Projects from "./Projects";
-import { bckround } from "@/components";
 import Footer from "./Footer";
 
 
@@ -26,9 +25,9 @@ const HomePage = () => {
           <About />
         </div>
         <div className="z-[30] relative" id="projects">
-          <Projects imga={bckround} />
+          <Projects/>
         </div>
-        <div className="z-[30] relative">
+        <div className="z-[10] relative mt-[5%]" id="projects">
           <Footer/>
         </div>
       </div>
